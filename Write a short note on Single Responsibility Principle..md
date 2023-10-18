@@ -11,4 +11,5 @@ When a class or module has only one responsibility, it becomes easier to test an
 For example, consider a class that reads data from a file and performs some processing on it. If this class is responsible for both reading data from a file and writing it to a database, then it violates the SRP. Instead, these responsibilities should be separated into two different classes, one for reading data from the file, and another for writing it to the database.
 
 In conclusion, adhering to the Single Responsibility Principle results in code that is easier to maintain, test, and modify. By separating responsibilities, software developers can create more modular and maintainable code, resulting in more robust software systems.
+.
 ```
